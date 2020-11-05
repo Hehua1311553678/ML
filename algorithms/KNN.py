@@ -48,3 +48,6 @@ def KNN(x, tr_X, tr_Y, k, distance_type='Minkowski', p=2):
         dict_y[tr_Y[i]] += 1
     y = dict(sorted(dict_y.items(), key=lambda x:x[1], reverse=True)).keys()[0]
     return y
+
+if __name__ == '__main__':
+    pass
