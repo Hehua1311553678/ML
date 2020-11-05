@@ -217,6 +217,7 @@ def Least_Squares_Regression_Tree(X, Y, times, total_times):
     return {j: {s: T1, s+1: T2}}
 
 if __name__ == '__main__':
+    # 测试
     X = [[1, 1], [1, 1], [1, 0], [0, 1], [0, 1]]
     Y = ['yes', 'yes', 'no', 'no', 'no']
     T = Least_Squares_Regression_Tree(X, Y, 0, 2)
